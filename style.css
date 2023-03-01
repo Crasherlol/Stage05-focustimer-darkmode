@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root {
+    font-size: 62.5%;
+}
+.timer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 70rem;
+    top: 40rem;
+}
+.buttons-lightmode, .buttons-nightmode{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 4.0rem;
+    width: 1.1rem;
+    height: 4.9rem;
+    margin-top: 23rem;
+    left: 70rem;
+    top: 32rem;
+    
+}
+.play, .stop, .plusTime, .minusTime, .dayTime, .nightTime, .playNight, .stopNight, .minusTimeNight, .plusTimeNight  {
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    
+
+}
+p{
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 2.4rem;
+    font-size: 12.6rem;
+    line-height: 14.8rem;
+    text-transform: uppercase;
+    text-align: center;
+ 
+}
+.sons, .sons-nightTime {
+position: absolute;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-column-gap: 3.2rem;
+width: 30.3rem;
+height: 35.6rem;
+gap: 3.2rem;
+left: 120.6rem;
+top: 32rem;
+
+
+}
+
+.play:hover, .stop:hover, .plusTime:hover, .minusTime:hover{
+    cursor: pointer;
+
+}
+
+
+.hide {
+    display:none
+}
+
+.dayTime, .nightTime{
+    position: fixed;
+    right: 0;
+    margin-right: 7rem;
+    margin-top: 3rem;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+.forestCard, .rainCard, .cafeteriaCard, .lareiraCard{
+    text-decoration: none;
+    border: none;
+    background-color: #E1E1E6;
+    border-radius: 24px;
+    cursor: pointer;
+
+}
+.forestCardOn, .rainCardOn, .cafeteriaCardOn, .lareiraCardOn{
+    text-decoration: none;
+    border: none;
+    background-color: #02799D;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.forestCardNight, .rainCardNight, .cafeteriaCardNight, .lareiraCardNight {
+    background-color: #29292E;
+    text-decoration: none;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+
+}
+.forestCardNightOn, .rainCardNightOn, .cafeteriaCardNightOn, .lareiraCardNightOn{
+    background-color: #0A3442;
+    text-decoration: none;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+
+
+}
+.slider {
+    display: flex;
+    margin-top: 2rem;
+    width: 9rem;
+    height: 0.5rem;
+    margin-left: 2.3rem;
+   appearance: none;
+   background-color: black;
+   accent-color: black;
+}
+
+.sliderNight{
+    display: flex;
+    margin-top: 2rem;
+    width: 9rem;
+    height: 0.5rem;
+    margin-left: 2.3rem;
+    appearance: none;
+    background-color: white;
+    accent-color: white;
+}
+.forestSliderOn, .rainSliderOn, .lareiraSliderOn, .cafeteriaSliderOn, .forestSliderNightOn, .rainSliderNightOn, .lareiraSliderNightOn, .cafeteriaSliderNightOn {
+    display: flex;
+    margin-top: 2rem;
+    width: 9rem;
+    height: 0.5rem;
+    margin-left: 2.3rem;
+    appearance: none;
+    background-color: white;
+    accent-color: white;
+}
+
+.sliderNightOn{
+    display: flex;
+    margin-top: 2rem;
+    width: 9rem;
+    height: 0.5rem;
+    margin-left: 2.3rem;
+    appearance: none;
+    background-color: white;
+    accent-color: white;
+}
+
+
+
